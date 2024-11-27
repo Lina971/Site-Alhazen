@@ -2,14 +2,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #f7f7f7, #eaeaea);
+    background: linear-gradient(to bottom, #d2b48c, #eaeaea);
     color: #333;
     line-height: 1.8;
 }
 
 /* Navigation */
 .navbar {
-    background-color: Darkblue;
+    background-color: #572c24;
     color: white;
     padding: 10px 0;
 }
@@ -53,27 +53,34 @@ section {
     padding: 20px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center; /* Ajout pour garantir l'alignement du texte */
+}
+
+/* Styles des titres */
 h1, h2 {
     text-align: center;
     margin-bottom: 20px;
 }
 
 h1 {
-    font-size: 2.5em;
-    text-align: center;
-    color: Darkblue;
-    text-shadow: 2px 2px 5px gray; 
+    font-size: 4em;
+    color: MidnightBlue;
+    text-shadow: 2px 2px 5px MidnightBlue; 
 }
 
 h2 {
-    font-size: 2em;
-    color: DarkGoldenRod;
-    border-bottom: 2px solid #ddd;
+    font-size: 2.5em;
+    color: GoldenRod;
+    border-bottom: 2px solid GoldenRod;
     display: inline-block;
     padding-bottom: 5px;
-    text-align: center;
 }
-
 /* Table */
 table {
     width: 80%;
@@ -82,13 +89,13 @@ table {
 }
 
 table th, table td {
-    border: 1px solid SaddleBrown;
+    border: 1px solid MidnightBlue;
     padding: 8px;
     text-align: left;
 }
 
 table th {
-    background: DarkGoldenRod;
+    background: GoldenRod;
     font-weight: bold;
 }
 
@@ -128,7 +135,7 @@ img {
 
 /* Footer */
 footer {
-    background: DarkBlue;
+    background: #572c24;
     color: #fff;
     padding: 10px;
     text-align: center;
